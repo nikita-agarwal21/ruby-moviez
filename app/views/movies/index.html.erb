@@ -2,8 +2,10 @@
 <body>
 
 <% @movies.each do |movie| %>
- <ul><li> <%= movie %> </li></ul>
-<% end %>
+  
+ <% my_movie = movie%>
+ name : <%= my_movie.name %>, genre :<%= my_movie.genre %>, price:<%= my_movie.price%><br><br>
+ <%end%>
 
 <h1>movies review</h1>
 </body>
